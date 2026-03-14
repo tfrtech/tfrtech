@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Sistema PDV Balcão - Gestão para Lanchonetes e Bares</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="icon" type="image/x-icon" href="./img/TFRico.ico">
+
+</head>
+
+<body>
+  <!-- -------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                  SEÇÂO NAVEBAR 
+------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+  <header class="nav">
+    <div class="nav-inner">
+      <div class="brand">
+        <div class="">
+          <img src="./img/TFR.png" alt="" style="width: 50px;">
+        </div>
+        <div>
+          <div class="brand-title">Sistema PDV Balcão</div>
+          <div class="brand-sub">Gestão ágil para seu comércio</div>
+        </div>
+      </div>
+
+      <nav class="nav-links" id="navLinks">
+        <a data-scroll="#features">Funcionalidades</a>
+        <a data-scroll="#demo">Veja na prática</a>
+        <a data-scroll="#pricing">Planos</a>
+        <a data-scroll="#contato">Contato</a>
+      </nav>
+
+      <div class="nav-cta">
+        <button class="btn btn-ghost" data-scroll="#demo">Ver demonstração</button>
+        <button class="btn btn-primary" data-scroll="#contato">
+          Agendar apresentação
+        </button>
+        <button class="nav-toggle" id="navToggle" aria-label="Abrir menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ----------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                  SEÇÂO TELA PRINCIPAL 
+------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+    <section class="hero">
+      <div>
+        <div class="hero-kicker">
+          <span class="hero-kicker-pill">Novo</span>
+          Sistema PDV pensado para balcões, lanchonetes e pequenos bares
+        </div>
+
+        <h1 class="hero-title">
+          Controle total de pedidos e caixa
+          <span class="gradient">em poucos cliques</span>
+        </h1>
+
+        <p class="hero-subtitle">
+          O Sistema PDV Balcão foi projetado para agilizar o atendimento, reduzir erros
+          e dar visibilidade ao caixa, estoque e resultados do seu comércio — tudo em um painel simples e moderno.
+        </p>
+
+        <div class="hero-badges">
+          <div class="hero-badge">
+            <span class="dot"></span>
+            Painel de mesas e balcão em tempo real
+          </div>
+          <div class="hero-badge">
+            <span class="dot"></span>
+            Impressão de comanda e nota fiscal
+          </div>
+          <div class="hero-badge">
+            <span class="dot"></span>
+            Relatórios de vendas e gastos
+          </div>
+          <div class="hero-badge">
+            <span class="dot"></span>
+            Gerencie o estoque sem complicação
+          </div>
+          <div class="hero-badge">
+            <span class="dot"></span>
+            Pedidos por QR Code e tablet, atualização em tempo real no balcão
+          </div>
+        </div>
+
+        <div class="hero-actions">
+          <button class="btn btn-primary" data-scroll="#contato">
+            Quero testar no meu comércio →
+          </button>
+          <button class="btn btn-ghost" data-scroll="#features">
+            Ver recursos do sistema
+          </button>
+        </div>
+
+        <p class="hero-note">
+          Nenhuma instalação complexa: funciona direto no navegador e pode ser usado em computadores e celulares.
+        </p>
+
+        <div class="hero-metrics">
+          <div class="hero-metric">
+            <strong>Atendimento rápido</strong>
+            Registre pedidos em segundos, com telas otimizadas para balcão e mesas.
+          </div>
+          <div class="hero-metric">
+            <strong>Visão financeira</strong>
+            Acompanhe caixa, despesas e lucro em tempo real por período.
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-media" id="heroMedia">
+        <div class="hero-orbit"></div>
+        <div class="hero-screen-main">
+          <!-- Banner desktop principal -->
+          <img src="./img/Baner Principal 2.png" alt="Tela principal do Sistema PDV Balcão" />
+        </div>
+        <div class="hero-screen-glow"></div>
+
+        <div class="hero-screen-phone">
+          <!-- Banner do celular -->
+          <img src="./img/baner celular 2.png" alt="Sistema PDV Balcão em celular" />
+        </div>
+
+        <div class="hero-pill-floating">
+          <span></span>
+          Painel de mesas ocupado/ livre em tempo real
+        </div>
+
+        <div class="hero-pill-floating2">
+          <strong>Pagamentos</strong><br />
+          Dinheiro, cartão, PIX e emissão de comprovante.
+        </div>
+      </div>
+    </section>
+
+    <!-- -------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                  SEÇÂO FUNCIONABILIDADES 
+------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+    <section id="features">
+      <div class="section-header">
+        <div class="section-kicker">Funcionalidades principais</div>
+        <h2 class="section-title">Tudo o que você precisa em um único sistema</h2>
+        <p class="section-subtitle">
+          Da comanda até o fechamento do caixa, o Sistema PDV Balcão acompanha todas as etapas
+          do atendimento e da gestão do seu estabelecimento.
+        </p>
+      </div>
+
+      <div class="features-grid">
+        <article class="feature-card">
+          <div class="feature-card-inner">
+            <div class="feature-icon"><img src="./img/Sem título1.png" alt=""></div>
+            <h3 class="feature-title">Comandas e mesas</h3>
+            <p class="feature-desc">
+              Abertura de comandas por mesa ou balcão, registro de itens por cliente e divisão de contas de forma
+              organizada.
+            </p>
+            <span class="feature-tag">
+              ✓ Painel visual de mesas
+            </span>
+          </div>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-card-inner">
+            <div class="feature-icon"><img src="./img/Sem título2.png" alt=""></div>
+            <h3 class="feature-title">Pagamentos e recibos</h3>
+            <p class="feature-desc">
+              Finalize a comanda escolhendo a forma de pagamento e imprima o comprovante com os detalhes do pedido.
+            </p>
+            <span class="feature-tag">
+              ✓ Dinheiro, cartão, PIX
+            </span>
+          </div>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-card-inner">
+            <div class="feature-icon"><img src="./img/Sem título3.png" alt=""></div>
+            <h3 class="feature-title">Controle de estoque</h3>
+            <p class="feature-desc">
+              Gerencie o estoque produto a produto, receba alertas de itens com quantidade baixa e evite vender o que
+              não tem.
+            </p>
+            <span class="feature-tag">
+              ✓ Aviso de estoque mínimo
+            </span>
+          </div>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-card-inner">
+            <div class="feature-icon"><img src="./img/Sem título4.png" alt=""></div>
+            <h3 class="feature-title">Relatórios de vendas</h3>
+            <p class="feature-desc">
+              Visualize os itens mais vendidos, ticket médio, faturamento por período e margem de lucro dos produtos.
+            </p>
+            <span class="feature-tag">
+              ✓ Insights em segundos
+            </span>
+          </div>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-card-inner">
+            <div class="feature-icon"><img src="./img/Sem título5.png" alt=""></div>
+            <h3 class="feature-title">Notas e gastos fixos</h3>
+            <p class="feature-desc">
+              Registre contas recorrentes (água, luz, etc.), marque pagamentos e acompanhe tudo em relatórios de gastos
+              e lucros.
+            </p>
+            <span class="feature-tag">
+              ✓ Controle financeiro simples
+            </span>
+          </div>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-card-inner">
+            <div class="feature-icon"><img src="./img/Sem título6.png" alt=""></div>
+            <h3 class="feature-title">Usuários e permissões</h3>
+            <p class="feature-desc">
+              Separe acesso de administrador e funcionários, controlando quem pode mexer em estoque, caixa e
+              configurações.
+            </p>
+            <span class="feature-tag">
+              ✓ Segurança para o negócio
+            </span>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- -------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                  SEÇÂO CARROSEL DE IMAGENS 
+------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+
+    <section id="demo">
+      <div class="section-header">
+        <div class="section-kicker">Veja na prática</div>
+        <h2 class="section-title">Tela a tela do PDV Balcão</h2>
+        <p class="section-subtitle">
+          Navegue pelas telas do sistema em tamanho grande. Clique na imagem para
+          ver os detalhes de cada etapa: pedidos, pagamentos, relatórios e mais.
+        </p>
+      </div>
+
+      <!-- BLOCO DA TELA / CARROSSEL -->
+      <div class="demo-wrapper">
+        <div class="demo-carousel" id="demoCarousel">
+          <div class="demo-slide " data-img="./img/g0.png" data-title="Painel principal do PDV"
+            data-desc="Visão geral das mesas, balcão e pedidos em andamento."> 
+            <img src="./img/g0.png" alt="Painel principal do PDV Balcão" />
+        </div>
+
+        <div class="demo-slide" data-img="./img/balcao.png" data-title="Painel de senhas / Balcão"
+          data-desc="Chamada de pedidos no painel de senhas para o cliente acompanhar.">
+          <img src="./img/g1.png" alt="Painel de senhas do balcão" />
+        </div>
+
+        <div class="demo-slide" data-img="./img/balcao.png" data-title="Painel de senhas / Balcão"
+          data-desc="Chamada de pedidos no painel de senhas para o cliente acompanhar.">
+          <img src="./img/g2.png" alt="Painel de senhas do balcão" />
+        </div>
+
+        <div class="demo-slide" data-img="./img/tela emitir nota.png" data-title="Comprovante final"
+          data-desc="Revisão da comanda com todos os itens, taxas e impressão do comprovante.">
+          <img src="./img/g3.png" alt="Comprovante final do pedido" />
+        </div>
+
+        <div class="demo-slide" data-img="./img/estoque.png" data-title="Controle de estoque"
+          data-desc="Cadastro de produtos, controle de quantidade e alerta de estoque baixo.">
+          <img src="./img/g6.png" alt="Tela de gestão de estoque" />
+        </div>
+
+        <div class="demo-slide" data-img="./img/estoque.png" data-title="Controle de estoque"
+          data-desc="Cadastro de produtos, controle de quantidade e alerta de estoque baixo.">
+          <img src="./img/g7.png" alt="Tela de gestão de estoque" />
+        </div>
+
+        <div class="demo-slide" data-img="./img/estoque.png" data-title="Controle de estoque"
+          data-desc="Cadastro de produtos, controle de quantidade e alerta de estoque baixo.">
+          <img src="./img/g8.png" alt="Tela de gestão de estoque" />
+        </div>
+      </div>
+
+      <!-- navegação SOBRE A TELA -->
+      <div class="demo-nav">
+        <button class="demo-arrow" id="demoPrev" aria-label="Anterior">‹</button>
+
+        <div class="demo-dots" id="demoDots">
+          <div class="demo-dot active" data-index="0"></div>
+          <div class="demo-dot" data-index="1"></div>
+          <div class="demo-dot" data-index="2"></div>
+          <div class="demo-dot" data-index="3"></div>
+        </div>
+
+        <button class="demo-arrow" id="demoNext" aria-label="Próximo">›</button>
+      </div>
+      </div>
+
+      <!-- CAIXA DE TEXTO FORA DO CARROSSEL -->
+      <div class="teste"> 
+        <div class="demo-card">
+          <h3>Interface pensada para o fluxo de balcão</h3>
+          <p>
+            O fluxo do sistema foi desenhado para que o atendente registre pedidos rapidamente,
+            sem telas confusas ou passos desnecessários. Tudo é feito em poucos cliques.
+          </p>
+
+          <ul>
+            <li style="display: flex; gap: 5px;"><span class="pricing-bullet">✓</span>Selecione a mesa ou balcão e adicione itens ao pedido.</li>
+            <li style="display: flex; gap: 5px;"><span class="pricing-bullet">✓</span>Divida a conta por cliente quando necessário.</li>
+            <li style="display: flex; gap: 5px;"><span class="pricing-bullet">✓</span>Escolha a forma de pagamento e finalize o caixa.</li>
+            <li style="display: flex; gap: 5px;"><span class="pricing-bullet">✓</span>Acompanhe painéis de lucro, gastos e notas fiscais.</li>
+          </ul>
+
+          
+        </div>
+        <div class="demo-card">
+          <h3>Porque adquerir o sistema?</h3>
+          <p>
+            Simplesmente pelo motivo de reunir todas as funcionalidades em um único sistema.
+          </p>
+
+          <ul>
+            <li style="display: flex; gap: 5px;"><span class="pricing-bullet">✓</span>Painel completo de PDV, mesas, balcão e painel de senhas..</li>
+            <li style="display: flex; gap: 5px;"><span class="pricing-bullet">✓</span>Controle de estoque, gastos, notas fiscais e relatórios de lucro.</li>
+            <li style="display: flex; gap: 5px;"><span class="pricing-bullet">✓</span>Suporte remoto incluso durante a assinatura mensal.</li>
+            <li style="display: flex; gap: 5px;"><span class="pricing-bullet">✓</span>Treinamento inicial para sua equipe na ativação do sistema.</li>
+            <li style="display: flex; gap: 5px;"><span class="pricing-bullet">✓</span>Emissão de de nota fiscal eletrônica, direto do sistema.</li>
+
+          </ul>
+
+          <button class="btn btn-primary" data-scroll="#contato" id="botao-galery2">
+            Entre em contato.
+          </button>
+        </div>
+      </div>
+    </section>
+
+<!-- -----------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                  SEÇÂO QRCODE 
+------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+    <section id="qrcode-mesa">
+      <div class="section-header">
+        <div class="section-kicker">Autoatendimento</div>
+        <h2 class="section-title">Pedidos pelo QR Code direto na mesa</h2>
+        <p class="section-subtitle">
+          Cada mesa do seu estabelecimento recebe um QR Code exclusivo. O cliente
+          aponta a câmera do celular, acessa o cardápio digital e faz o pedido em
+          poucos segundos, sem precisar esperar um atendente.
+        </p>
+      </div>
+
+      <div class="demo-section">
+        <div class="demo-text">
+          <h3>Atendimento mais rápido e menos filas</h3>
+          <p>
+            Assim que o cliente escaneia o QR Code da mesa, ele vê o cardápio
+            do Sistema PDV Balcão, escolhe os produtos, envia o pedido e ele
+            já aparece no painel do balcão e na cozinha.
+          </p>
+
+          <ul class="pricing-features">
+            <li><span class="pricing-bullet">✓</span>Cada mesa possui um QR Code único gerado pelo sistema.</li>
+            <li><span class="pricing-bullet">✓</span>O cliente faz o pedido pelo próprio celular, sem aplicativo.</li>
+            <li><span class="pricing-bullet">✓</span>O pedido é enviado para o balcão para ser aceito ou não.</li>
+            <li><span class="pricing-bullet">✓</span>O pedido entra diretamente na comanda daquela mesa.</li>
+            <li><span class="pricing-bullet">✓</span>Reduz o tempo de espera e libera os garçons para outras tarefas.</li>
+          </ul>
+
+          <p style="font-size:.86rem;color:var(--muted);margin-bottom:12px;">
+            Ideal para horários de pico: você mantém o salão cheio, mas com atendimento
+            organizado e sem correria no balcão.
+          </p>
+        </div>
+
+        <div class="demo-carousel" style="max-width:540px;margin-inline:auto;">
+          <div class="demo-slide active">
+            <!-- Ilustração gerada do QR Code na mesa -->
+            <img src="./img/qrcode.png" alt="Cliente escaneando QR Code na mesa para fazer o pedido" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                  SEÇÂO TABLET / CELULAR 
+------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+    <section id="atendentes" class="section-gradient">
+      <div class="section-header">
+        <div class="section-kicker">Garçons conectados</div>
+        <h2 class="section-title">Pedidos em tempo real com tablets ou celulares</h2>
+        <p class="section-subtitle">
+          Seus atendentes podem usar tablets ou celulares para registrar os pedidos
+          diretamente na mesa. Cada item lançado entra na comanda do cliente e
+          aparece instantaneamente no balcão.
+        </p>
+      </div>
+
+      <div class="demo-section">
+        <div class="demo-carousel" style="max-width:540px;margin-inline:auto;">
+          <div class="demo-slide active">
+            <!-- Ilustração gerada do garçom com tablet -->
+            <img src="./img/chamados-balcao.png" alt="Garçom usando tablet para lançar pedido no PDV Balcão" />
+          </div>
+        </div>
+
+        <div class="demo-text">
+          <h3>Fluxo perfeito entre salão, balcão e cozinha</h3>
+          <p>
+            O garçom abre a comanda, seleciona a mesa e adiciona os itens no
+            aplicativo de pedidos. Em segundos, o pedido já foi impresso na
+            cozinha ou exibido no monitor do balcão.
+          </p>
+
+          <ul class=" pricing-features">
+            <li><span class="pricing-bullet">✓</span>Funciona em tablets e celulares com navegador.</li>
+            <li><span class="pricing-bullet">✓</span>Sincronização em tempo real com o PDV Balcão.</li>
+            <li><span class="pricing-bullet">✓</span>Menos erros na anotação de pedidos.</li>
+            <li><span class="pricing-bullet">✓</span>Maior giro de mesas e satisfação do cliente.</li>
+          </ul>
+
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- -----------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                  SEÇÂO TELA CHAMADO TV 
+------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+    <section id="chamados" class="section-gradient">
+
+      <div class="section-header">
+        <div class="section-kicker">Chamados em tempo real</div>
+        <h2 class="section-title">Painel de chamados na TV do balcão</h2>
+        <p class="section-subtitle">
+          Seu painel de chamados (`chamados-balcao.jpg`) exibido em TV de 32" no balcão.
+          Cliente vê quando o pedido está pronto e retira rapidamente.
+        </p>
+      </div>
+
+      <div class="demo-section ">
+        <div class="demo-text">
+          <h3>Fluxo perfeito de cozinha → balcão → cliente</h3>
+          <p>
+            A cozinha marca o pedido como "Pronto" e ele aparece automaticamente
+            na TV do balcão. O cliente acompanha o número e retira sem fila.
+          </p>
+
+          <ul class=" pricing-features">
+            <li><span class="pricing-bullet">✓</span>Identifica <strong>Balcão</strong> ou <strong> Mesa</strong>.</li>
+            <li><span class="pricing-bullet">✓</span>Status <strong>Pronto</strong> destacado visualmente.</li>
+            <li><span class="pricing-bullet">✓</span>Sistema avisa por <strong>Voz</strong> e mostra na TV!</li>
+            <li><span class="pricing-bullet">✓</span>Atualização automática em tempo real.</li>
+            <li><span class="pricing-bullet">✓</span>Reduz tempo de espera e filas no balcão.</li>
+            <li><span class="pricing-bullet">✓</span>Sistema avisa por voz e mostra na TV!</li>
+          </ul>
+
+        </div>
+        <div class="demo-carousel" style="max-width:540px;margin-inline:auto;">
+          <div class="demo-slide active">
+            <!-- Ilustração gerada do garçom com tablet -->
+            <img src="./img/img-chamado.png" alt="TV com painel de chamados do Sistema PDV Balcão" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                  SEÇÂO PLANOS
+------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+    <section id="pricing">
+      <div class="section-header">
+        <div class="section-kicker">Planos</div>
+        <h2 class="section-title">Simples de entender, fácil de pagar</h2>
+        <p class="section-subtitle">
+          Você terá acesso ao sistema completo, treinamento inicial e suporte dedicado para tirar dúvidas.
+          Sem complicação e com foco em resultado.
+        </p>
+      </div>
+
+      <div class="pricing-wrapper">
+        <div class="pricing-card">
+          <h3>Plano PDV Balcão</h3>
+
+          <!-- Valor mensal -->
+          <p class="pricing-price">
+            R$ 250,00 <span>/ mês</span>
+          </p>
+
+          <p class="pricing-note">
+            Acesso completo ao sistema PDV Balcão, atualizações e suporte remoto
+            para o seu comércio, sem limite de comandas ou de usuários.
+          </p>
+
+          <!-- Taxa de instalação e treinamento -->
+          <p class="pricing-price" style="font-size: 1.1rem; margin-top: 4px;">
+            Taxa de instalação e treinamento: <strong>R$ 500,00</strong>
+          </p>
+          <p class="pricing-note">
+            Inclui configuração inicial do sistema, cadastro dos principais produtos
+            e treinamento presencial/online para os funcionários da empresa.
+          </p>
+
+          <ul class="pricing-features">
+            <li>
+              <span class="pricing-bullet">✓</span>
+              Painel completo de PDV, mesas, balcão e painel de senhas.
+            </li>
+            <li>
+              <span class="pricing-bullet">✓</span>
+              Controle de estoque, gastos, notas fiscais e relatórios de lucro.
+            </li>
+            <li>
+              <span class="pricing-bullet">✓</span>
+              Suporte remoto incluso durante a assinatura mensal.
+            </li>
+            <li>
+              <span class="pricing-bullet">✓</span>
+              Treinamento inicial para sua equipe na ativação do sistema.
+            </li>
+          </ul>
+
+          <button class="btn btn-primary" data-scroll="#contato">
+            Assinar por R$ 250,00/mês
+          </button>
+        </div>
+
+        <aside class="pricing-secondary">
+          <h4>Ideal para quem?</h4>
+          <p>
+            O Sistema PDV Balcão foi pensado para pequenos e médios negócios que precisam organizar
+            atendimento e caixa sem investir em sistemas complexos e caros.
+          </p>
+
+          <ul class="pricing-features">
+            <li><span class="pricing-bullet">✓</span>Lanchonetes, pastelarias, cafeterias e bares.</li>
+            <li><span class="pricing-bullet">✓</span>Food trucks e pontos de venda em eventos.</li>
+            <li><span class="pricing-bullet">✓</span>Comércio com atendimento rápido no balcão.</li>
+          </ul>
+          <h4>Vantagens</h4>
+
+            <li><span class="pricing-bullet">✓</span>Suporte remoto incluso durante a assinatura mensal.</li>
+            <li><span class="pricing-bullet">✓</span>Treinamento inicial para sua equipe na ativação do sistema.</li>
+            <li><span class="pricing-bullet">✓</span>Emissão de nota fiscal eletrônica, direto do sistema.</li>
+            <li><span class="pricing-bullet">✓</span>Opção do cliente realizar o pedido sem esperar por um atendente.</li>
+            <li><span class="pricing-bullet">✓</span>Sistema intuitivo e fácil de usar.</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <!-- -------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                  PERGUNTAS E RESPOSTAS
+------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+    <section id="faq">
+      <div class="section-header">
+        <div class="section-kicker">Dúvidas frequentes</div>
+        <h2 class="section-title">Por que o Sistema PDV Balcão é ideal para o seu negócio?</h2>
+        <p class="section-subtitle">
+          Separamos as principais perguntas que donos de lanchonetes, pastelarias e bares fazem
+          antes de contratar um sistema de PDV.
+        </p>
+      </div>
+
+      <div class="faq-grid">
+        <div class="faq-item">
+          <button class="faq-question" type="button" onclick="toggleFaq(this)">
+            <span>1. Meu estabelecimento é pequeno. Vale a pena ter um sistema de PDV?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Sim. O PDV Balcão foi pensado justamente para pequenos e médios negócios que
+              precisam organizar pedidos, caixa e estoque sem investir em sistemas caros
+              e complicados. Você ganha tempo e reduz erros já nos primeiros dias de uso.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" type="button" onclick="toggleFaq(this)">
+            <span>2. Meus funcionários têm dificuldade com tecnologia. Eles vão conseguir usar?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              A interface é simples, com botões grandes e fluxo direto: escolher mesa/balcão,
+              adicionar itens e fechar a conta. Além disso, o plano já inclui instalação
+              e treinamento para sua equipe, até todos se sentirem seguros.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" type="button" onclick="toggleFaq(this)">
+            <span>3. O sistema ajuda a evitar perdas e erros de pedidos?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Sim. Cada pedido fica registrado por mesa ou balcão, com histórico e status.
+              Os itens vão automaticamente para o balcão/cozinha e para o painel de chamados,
+              evitando erros de anotação em papel e pedidos esquecidos.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" type="button" onclick="toggleFaq(this)">
+            <span>4. Consigo saber se estou realmente tendo lucro?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Você acompanha faturamento por período, produtos mais vendidos, gastos fixos,
+              taxa de garçom e lucro líquido. Com esses relatórios, fica fácil ver se o
+              negócio está saudável e tomar decisões com base em números.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" type="button" onclick="toggleFaq(this)">
+            <span>5. E se eu quiser crescer depois, o sistema aguenta?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              O PDV Balcão já suporta vários usuários, mesas com QR Code, pedidos por tablet
+              e painel de chamados em TV. Você pode começar pequeno e ir ativando os recursos
+              conforme o movimento aumenta.
+            </p>
+          </div>
+        </div>
+    </section>
+
+    <!-- -------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                  SEÇÂO CONTATO
+------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+    <section id="contato">
+      <div class="section-header">
+        <div class="section-kicker">Entre em contato</div>
+        <h2 class="section-title">Agende uma demonstração sem compromisso</h2>
+        <p class="section-subtitle">
+          Preencha os dados abaixo ou me chame direto no WhatsApp. Vamos analisar o seu tipo
+          de comércio e mostrar como o PDV Balcão pode simplificar o dia a dia do seu atendimento.
+        </p>
+      </div>
+
+      <div class="cta">
+        <div>
+          <img src="./img/whats2.png" alt="" style="width: 300px; margin-left: 20%;">
+          <h3 class="cta-title">Transforme o caixa do seu negócio em poucos dias</h3>
+          <p class="cta-sub">
+            Na apresentação, você verá o fluxo completo de uso do sistema, poderá tirar dúvidas
+            e receber uma proposta personalizada para sua realidade.
+          </p>
+
+          <ul class="cta-list">
+            <li>Configuração inicial do cadastro de produtos.</li>
+            <li>Treinamento para você e sua equipe.</li>
+            <li>Suporte próximo na fase de adaptação.</li>
+          </ul>
+        </div>
+
+        <form class="cta-form" id="leadForm">
+          <div class="field">
+            <label for="nome">Nome</label>
+            <input id="nome" name="nome" type="text" placeholder="Digite seu nome" required />
+          </div>
+
+          <div class="field">
+            <label for="whatsapp">WhatsApp</label>
+            <input id="whatsapp" name="whatsapp" type="text" placeholder="(DDD) 9 9999-9999" required />
+          </div>
+
+          <div class="field">
+            <label for="tipo">Tipo de comércio</label>
+            <input id="tipo" name="tipo" type="text" placeholder="Lanchonete, pastelaria, bar..." />
+          </div>
+
+          <div class="field">
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" rows="3"
+              placeholder="Conte um pouco sobre o seu negócio"></textarea>
+          </div>
+
+          <button class="btn btn-primary btn-whatsapp" type="submit">
+            Enviar pelo WhatsApp
+          </button>
+          <p class="cta-small">
+            Ao clicar em enviar, abriremos seu WhatsApp com uma mensagem preenchida com seus dados.
+          </p>
+          <p class="cta-success" id="ctaSuccess">
+            Tudo pronto! Se o WhatsApp não abrir automaticamente, confirme se o navegador permitiu a abertura do link.
+          </p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- -----------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                  SEÇÂO MODAL GALERIA
+------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+  <!-- MODAL GALERIA -->
+  <div class="modal-backdrop" id="modalBackdrop">
+    <div class="modal">
+      <div class="modal-img">
+        <img id="modalImg" src="" alt="" />
+      </div>
+      <div class="modal-info">
+        <div class="modal-header-row">
+          <h3 class="modal-title" id="modalTitle">Tela do sistema</h3>
+          <button class="modal-close" id="modalClose">✕</button>
+        </div>
+        <p id="modalDesc">
+          Descrição da tela selecionada.
+        </p>
+
+        <div class="modal-meta">
+          <span class="modal-chip">Interface real do Sistema PDV Balcão</span>
+          <span class="modal-chip">Demo ilustrativa</span>
+        </div>
+
+        <p style="margin-top: 10px;">
+          Use esta tela na apresentação para mostrar como o sistema funciona na prática,
+          destacando as vantagens do fluxo em relação ao controle manual.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- -------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                  FOOTER 
+------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+  <footer>
+    <div>
+      © <span id="year"></span> Sistema PDV Balcão — desenvolvido por
+      <span class="highlight">TFR Tech <>_</span> Todos os direitos reservados.
+    </div>
+  </footer>
+
+  <script src="./script/script.js"></script>
+</body>
+
+</html>
